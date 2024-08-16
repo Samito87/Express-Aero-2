@@ -1,0 +1,297 @@
+/* Existing styles */
+
+/* Navbar styles */
+header {
+    background-color: #0000ffcc;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-left: 200px;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+
+/*  List of Available vehicles */
+/* Existing styles */
+
+/* Vehicles container */
+#vehicles-container {
+    margin-top: 20px;
+}
+
+#vehicles-list {
+    list-style: none;
+    padding: 0;
+}
+
+#vehicles-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 4px;
+}
+
+#vehicles-list li .vehicle-type {
+    font-weight: bold;
+}
+
+#vehicles-list li .vehicle-status {
+    color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/***********************Order page**********************************/
+/* General styles for the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+#order-form {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Confirmation message */
+#confirmation-message {
+    margin-top: 20px;
+    padding: 15px;
+    background: #d4edda;
+    color: #155724;
+    border-radius: 4px;
+    border: 1px solid #c3e6cb;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Vehicles container */
+#vehicles-container {
+    margin-top: 30px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#vehicles-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#vehicles-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#vehicles-list li .vehicle-type {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#vehicles-list li .vehicle-status {
+    color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"], button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #confirmation-message, #vehicles-container {
+        padding: 10px;
+    }
+}
+
+
